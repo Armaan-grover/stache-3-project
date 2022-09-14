@@ -1,0 +1,45 @@
+body {
+    background-image: url("kakashi.png");
+}
+
+h1 {
+    font-family: 'Silkscreen', cursive;
+    background-color: rgb(26, 78, 109);
+    width: 400px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-color: rgb(26, 78, 109);
+}
+
+canvas {
+    animation-name: flash;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+@keyframes flash {
+    from {
+        box-shadow: 1px 1px 40px rgb(26, 78, 109);
+    }
+
+    to {
+        box-shadow: 1px 1px 40px rgb(223, 161, 235);
+    }
+}
+
+button {
+    background-color: rgb(26, 78, 109);
+    font-family: 'Kalam', cursive;
+
+}
+
+.closer {
+    background-color: rgb(26, 78, 109);
+    font-family: 'Kalam', cursive;
+    position: fixed, bottom;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 30px;
+}

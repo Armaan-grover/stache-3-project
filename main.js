@@ -1,7 +1,7 @@
 function preload() {
     noseX = 0;
     noseY = 0;
-    stache = loadImage("pngfind.com-mustache-transparent-png-915825.png");
+    stache = loadImage("stache.png");
 }
 function setup() {
     canvas = createCanvas(400, 300);
